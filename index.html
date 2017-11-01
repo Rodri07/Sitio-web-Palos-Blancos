@@ -10,63 +10,61 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+<div class="container-fluid" style="height: 100px; background-color: #51A39D;">
+
+</div>
 <!--   navbar-->
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container icono-navbar">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-default" id="header">
+        <div class="container" style="margin-left: 50px; margin-right: 20px;">
+            <a class="navbar-brand " href="#" onclick="$('body').animatescroll();"><img src="assets/img/logo1.jpg" alt="" id="logo" style="width:100px;height:100px; padding: 10px;">&nbsp; Palos Blacos Adventista</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px;margin-right: 20px;">
+            <a class="navbar-brand " href="#" onclick="$('body').animatescroll();">Inicio</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#somos').animatescroll();">Quienes Somos</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Departamentos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">1.	Escuela Sabática</a>
+                  <a class="dropdown-item" href="#">2.	Ministerio Joven</a>
+                  <a class="dropdown-item" href="#">3.	Aventureros</a>
+                  <a class="dropdown-item" href="#">4.	Conquistadores</a>
+                  <a class="dropdown-item" href="#">5.	Ministerio de la mujer</a>
+                  <a class="dropdown-item" href="#">6.	Ministerio del menor</a>
+                  <a class="dropdown-item" href="#">7.	ASA</a>
+                  <a class="dropdown-item" href="#">8.	Acción misionera</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">VISITANOS</a>
+                </div>
+                </li>
 
-          <a class="navbar-brand " href="#" onclick="$('body').animatescroll();"><img src="assets/img/logo2.jpg" alt="" id="logo" style="width: 50px; height: 50px;">&nbsp;Iglesia Adventista</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  espiritualidad
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  servicios
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  informacion
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#actividades').animatescroll();">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.adventistas.org/es/" onclick="$('#iglesia').animatescroll();">Iglesia en el Mundo</a>
+                </li>
             </ul>
-          </div>
+
+            <div class="my-2 my-lg-0">
+
+            </div>
+
+        </div>
         </nav>
-    </div>
+</div>
+<!--    fin Navbar-->
 <!--    carrusel-->
 <header class="header">
-  <div class="container">
+<!--  <div class="container">-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -95,7 +93,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-</div>
+<!--</div>-->
 </header>
 
 <!--informacion de quienes somos-->
