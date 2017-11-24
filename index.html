@@ -13,12 +13,9 @@
 
 </head>
 <body>
-<div class="container-fluid" style="height: 100px; background-color: #51A39D;">
-
-</div>
 <!--   navbar-->
 <div class="container icono-navbar">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-default" id="header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-#06425C bg-dark navbar-default" id="headerA">
         <div class="container" style="margin-left: 50px; margin-right: 20px;">
             <a class="navbar-brand " href="#" onclick="$('body').animatescroll();"><img src="assets/img/logo1.jpg" alt="" id="logo" style="width:100px;height:100px; padding: 10px;">&nbsp; Palos Blacos Adventista</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -149,7 +146,7 @@
 
 <!-- Actividades-->
     <div class="container" id="actividades">
-            <div class="row" style="background-color: #F2F2F2; height: 300px; color: black">
+            <div class="row" style="background-color: #F2F2F2; height: 250px; color: black">
                     <div class="col-md col-sm">
                         <img src="assets/img/galeria1.png" class="img-thumbnail"  alt="please" id="galeria">
                         <h2>Escuela Sabatica</h2>
@@ -169,7 +166,7 @@
     </div>
 
    <div class="container" id="actividades">
-            <div class="row" style="background-color: #F2F2F2; height: 300px; color: black">
+            <div class="row" style="background-color: #F2F2F2; height: 250px; color: black">
                     <div class="col-md col-sm">
                         <img src="assets/img/galeria4.jpg" class="img-thumbnail" alt="please" id="galeria">
                         <h2>Comquistadores</h2>
@@ -189,25 +186,43 @@
     </div>
 <!--    Contactos-->
 
-   <section class="contactanos" id="contactanos">
+   <section class="contactanos border" id="contactanos">
         <div class="container">
-            <div class="row" style="background-color: #06425C; height: 400px;">
-                    <div class="col-md col-sm">
-                      <h1>Contactos</h1>
+            <div class="row" style="height: auto;" id="contactos">
+                    <div class="col-md col-sm-6">
+                      <h1 style="text-align: center; color: aliceblue;">Contactos</h1>
+                      <p>&nbsp;</p>
+                      <h4 style="text-align: center; color: aliceblue;">Iglesia Adventista Palos Blancos</h4>
+                      <h6 style="text-align: center; color: aliceblue;">Provincia de Sud Yungas-La Paz-Bolivia</h6>
                     </div>
-                    <div class="col-md col-sm">
-                        <h1>formulario Contactos</h1>
+                    <div class="col-md col-sm-6">
+                        <h1 style="text-align: center">Formulario Contactos</h1>
+                        <form>
+                          <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
                     </div>
             </div>
         </div>
     </section>
 <!--    Pie de pagina-->
 
-    <div class="row"  style="background-color: #814374;">
-        <footer class="footer">
-        <h1>Footer</h1>
-        </footer>
-    </div>
+    <footer class="footer">
+       <p>Iglesia Adventista del Séptimo Día</p>
+        <p>Copyright © 2017</p>
+        <p>Todos los derechos reservados</p>
+    </footer>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

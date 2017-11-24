@@ -14,3 +14,23 @@ h2{
     width: 100%;
     height: 150px;
 }
+/**/
+#headerA{
+     background: rgba(0, 0, 0, 0.3);
+
+}
+#contactanos{
+    background-image: url(img/slide3.jpg);
+}
+#contactos{
+    opacity: 0.9;
+}
+.footer{
+    color: aliceblue;
+    text-align: center;
+    background-image: url(img/slide2.jpg);
+    background-size: cover;
+}
+.footer p{
+    margin: -0px;
+}
